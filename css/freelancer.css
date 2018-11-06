@@ -19,12 +19,12 @@ padding-left: 25px;
 }
 .filter-button{
   box-shadow: none !important;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 
 }
 .filter2-button{
   box-shadow: none !important;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 
 }
 .img-centered{
@@ -136,7 +136,7 @@ a{
 }
 .navbar-custom {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   border: none;
 }
 .navbar-custom a:focus {
@@ -191,7 +191,7 @@ li.contact.active a {
 
 .navbar-custom .navbar-toggle {
   color: #37474f;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   border-color: #37474f;
     border-radius: 0;
 
@@ -321,7 +321,7 @@ section.success {
   -moz-transition: all ease 0.5s;
 }
 .pcaption{
-    background: rgba(65,180,231, 0.9) !important;
+    background: rgba(240,80,84, 0.9) !important;
 
 }
 .wcaption{
