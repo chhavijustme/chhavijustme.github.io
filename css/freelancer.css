@@ -90,11 +90,13 @@ padding-left: 25px;
 .body-text
 {
   margin-bottom: 20px;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   font-size:18px;
   font-weight: 200;
-  line-height: 26px;
+  line-height: 30px;
 }
+
+
 
 .quote
 {
@@ -173,7 +175,15 @@ body{
 a{
   text-decoration: none !important;
   font-weight: 800;
-  color: #000;
+  color: #000;  
+
+}
+
+a .social-icons
+{
+  font-size: 18px;
+  color: #B9B7B7;
+  padding: 4px;
 }
 
 .img-centered {
@@ -370,7 +380,7 @@ section.success {
 }
 .pcaption{
   /* TODO: Put some nice hover color for the images. */
-    /*background: rgba(190,190,190, 0.3) !important;*/
+  background: rgba(190,190,190, 0.4) !important;*/
 
 }
 .wcaption{
@@ -464,7 +474,6 @@ footer h3 {
 }
 footer .footer-above {
   /*padding-top: 5px;*/
-  background-color: #2C3E50;
 }
 footer .footer-col {
 /*  margin-bottom: 5px;
