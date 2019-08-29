@@ -93,7 +93,7 @@ padding-left: 25px;
   /*margin-top: 20px;*/
   font-size:18px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 33px;
 }
 
 
@@ -124,7 +124,7 @@ font-weight: 200 !important;}
 
 
 .meb-color{
-  color: #525cff;
+  color: #FF8F00;
 }
 
 .pragati
@@ -132,9 +132,19 @@ font-weight: 200 !important;}
   color: #FF5454;
 }
 
+.pragati-app
+{
+  color: #616161;
+}
+
 .nutanix
 {
   color: #479FF0;
+}
+
+.fractal
+{
+  color: #3F51B5;
 }
 
 .website
@@ -161,6 +171,7 @@ font-weight: 200 !important;}
 {
   color: #9CCC65;
 }
+
 
 
 h3 .heading {
@@ -380,7 +391,7 @@ section.success {
 }
 .pcaption{
   /* TODO: Put some nice hover color for the images. */
-  background: rgba(190,190,190, 0.4) !important;*/
+  background: rgba(155,155,155, 0.9) !important;*/
 
 }
 .wcaption{
