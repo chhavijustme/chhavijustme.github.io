@@ -1,0 +1,80 @@
+baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
+title: Chhavi's Blog
+paginate: 5
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 1
+                - name: Tags
+                  url: tags/
+                  weight: 2
+                - name: Series
+                  url: series/
+                  weight: 3
+                - name: Search
+                  url: search/
+                  weight: 4
+
+
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "Chhavi's Blog"
+    author: Chhavi
+
+    defaultTheme: auto
+    ShowShareButtons: true
+    ShowReadingTime: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: false
+    images: ["papermod-cover.png"]
+
+    homeInfoParams:
+        Title: "Chhavi's Blog"
+        Content: >
+            Welcome to my Blog!
+            I write about Design, Travel, Fashion and food!
+
+    socialIcons:
+        - name: twitter
+          url: "https://github.com/adityatelange/hugo-PaperMod"
+        - name: instagram
+          url: "https://ko-fi.com/adityatelange"
+        - name: linkedin
+          url: "index.xml"
+
+taxonomies:
+    tag: tags
+    series: series
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
