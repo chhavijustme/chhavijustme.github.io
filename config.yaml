@@ -1,6 +1,6 @@
 baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
-title: Chhavi's Blog
-paginate: 5
+title: Chhavi Shrivastava
+paginate: 3
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -44,7 +44,7 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Chhavi's Blog"
+    description: "Personal Blog"
     author: Chhavi
 
     defaultTheme: auto
@@ -57,10 +57,9 @@ params:
     images: ["papermod-cover.png"]
 
     homeInfoParams:
-        Title: "Chhavi's Blog"
+        Title: "Hi there 👋 "
         Content: >
-            Welcome to my Blog!
-            I write about Design, Travel, Fashion and food!
+            I am Chhavi. I am a Product Designer at Bumble.🐝  My alter ego would be Carrie Bradshaw working in tech and living in London. I write about design, life, and travel. The cliche, sorry.
 
     socialIcons:
         - name: twitter

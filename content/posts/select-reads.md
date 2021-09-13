@@ -1,6 +1,6 @@
 ---
 author: "Hugo Authors"
-title: "Markdown Syntax Guide"
+title: "Select Reads"
 date: "2019-03-11"
 description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 tags: ["markdown", "css", "html", "themes"]
@@ -10,14 +10,7 @@ aliases: ["migrate-from-jekyl"]
 # ShowToc: true
 TocOpen: true
 searchHidden: true
-cover:
-    image: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
-    # can also paste direct link from external site
-    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-    alt: "<alt text>"
-    caption: "<text>"
-    relative: false 
-
+weight: 1
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
